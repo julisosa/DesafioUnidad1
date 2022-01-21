@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DesafioUnidad1
 {
-    internal class DesafioContext : DbContext
+    public class DesafioContext : DbContext
     {
         public DbSet<Comments> Comments { get; set; }
 
